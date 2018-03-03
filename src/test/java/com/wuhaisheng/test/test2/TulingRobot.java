@@ -29,7 +29,7 @@ public class TulingRobot implements IMsgHandlerFace {
     Logger logger = Logger.getLogger("TulingRobot");
     MyHttpClient myHttpClient = Core.getInstance().getMyHttpClient();
     String url = "http://www.tuling123.com/openapi/api";
-    String apiKey = "597b34bea4ec4c85a775c469c84b6817";
+    String apiKey = "a50bc8a138fe4d8d80af75dc3b4c16d8";
     @Override
     public String textMsgHandle(BaseMsg msg) {
         String result = "";
